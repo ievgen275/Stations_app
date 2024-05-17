@@ -1,0 +1,78 @@
+body {
+   background-color: paleturquoise;
+}
+
+label {
+   font-size: 20px;
+}
+
+
+
+.container {
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.title {
+   font-size: 40px;
+   text-align: center;
+}
+
+#list {
+   font-size: 25px;
+   list-style-type: none;
+   margin-top: 70px;
+}
+
+#status {
+   width: 70px;
+   height: 25px;
+}
+
+button {
+   display: flex;
+   margin: 0 auto;
+   width: 200px;
+   height: 40px;
+   font-size: 20px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   border: 0;
+
+   margin-top: 20px;
+   margin-bottom: 20px;
+
+   box-shadow: 0px 0px 5px 1px rgb(0, 0, 0);
+
+   border-radius: 15px;
+}
+
+.button_add:hover {
+   background-color: lightsalmon;
+   transition: 0.7s;
+}
+
+.button_active:hover {
+   background-color: lightgreen;
+   transition: 0.7s;
+}
+
+.button_inactive:hover {
+   background-color: lightcoral;
+   transition: 0.7s;
+}
+
+.button_delete:hover {
+   background-color: lightpink;
+   transition: 0.7s;
+}
+
+.form {
+   max-width: 450px;
+
+   margin: 0 auto;
+}
